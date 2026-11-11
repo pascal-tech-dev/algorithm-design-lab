@@ -1,0 +1,19 @@
+{
+    "name": "Algorithm Design Lab",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": ".."
+    },
+    "runArgs": [
+        "--name=algorithm-design-lab"
+      ],
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-python.vscode-pylance",
+          "charliermarsh.ruff"
+        ]
+      }
+    }
+  }
